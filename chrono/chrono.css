@@ -1,0 +1,72 @@
+#myTxt{
+	width: 60%;
+	height: 60%;
+	padding: 0px, 0px, 0px, 0px;
+	margin: 0px, 0px, 0px, 0px;
+	background-color: transparent;
+	font-family:"Verdana", Arial, sans-serif;	
+	text-align: left;
+	border: none;
+}
+
+@media screen and (orientation: portrait){
+	body{
+		background-color: #C0C0C0;
+		background-image: url(chrono_portrait.jpg);
+		background-size: 100%;
+	}
+	#myTxt{
+		font-size:25vw;
+		position: fixed;
+		top: 12%;
+		left: 15%;
+	}
+	button{
+		position: fixed;
+		top: 80%;
+		width: 30%;
+		height: 12%;
+		background-color: #C0C0C0;
+		font-size: 5vw;
+	}
+	#myStartB{
+		left: 3%;
+	}
+	#myContinueB{
+		left: 35%;
+	}
+	#myPauzeB{
+		left: 67%;
+	}
+}
+
+@media screen and (orientation: landscape){
+	body{
+		background-color: #B8AF88;
+		background-image: url(chrono_landscape.jpg);
+		background-size: 100%;
+	}
+	#myTxt{
+		font-size:25vh;
+		position: fixed;
+		top: 20%;
+		left: 63%;
+	}
+	button{
+		position: fixed;
+		left: 5%;
+		width: 30%;
+		height: 25%;
+		background-color: #B8AF88;
+		font-size: 5vh;
+	}
+	#myStartB{	
+		top: 5%;
+	}
+	#myContinueB{
+		top: 37%;
+	}
+	#myPauzeB{
+		top: 70%;
+	}	
+}
